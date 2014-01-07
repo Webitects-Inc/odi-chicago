@@ -1,0 +1,37 @@
+/*---------------------------+
+ | Site: Open Data Institute |
+ | Part: Wufoo stylesheet    |
+ +---------------------------*/
+
+
+/* Imports
+=====================================================================*/
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400|Merriweather:400,700,900,300);
+
+
+/* Fonts
+======================================================================*/
+.wufoo, .wufoo input, .wufoo select, .wufoo textarea {
+    font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+}
+
+.wufoo .submit { font-family: "Oswald", Arial, sans-serif; }
+
+
+/* Content
+======================================================================*/
+#container, html.embed { background: none; }
+.wufoo { background: none; font-size: 22px; line-height: 1.5; }
+.wufoo #header { display: none; }
+
+.wufoo input.text, .wufoo textarea.textarea {
+    background: #fff;
+    border: 0;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+
+.wufoo label.desc { font-weight: normal; }
+.wufoo li, .wufoo li.buttons { padding-left: 0; padding-right: 0; }
+.wufoo span.req { font-size: 0; }
+.wufoo .submit { background: #fff; border: 1px solid #ccc; font-size: 22px; padding: 0.2em 1em; text-transform: uppercase; }

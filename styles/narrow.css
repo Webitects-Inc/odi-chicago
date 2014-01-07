@@ -1,0 +1,35 @@
+/*---------------------------+
+ | Site: Open Data Institute |
+ | Part: Narrow stylesheet   |
+ +---------------------------*/
+
+/* Basics
+======================================================================*/
+body { font-size: 15px; padding: 20px; }
+h1 { font-size: 30px; }
+h2 { margin-top: 30px; }
+
+
+/* Layout
+======================================================================*/
+#page { max-width: 100%; }
+
+/* Columns */
+.c2l, .c2r, .c3l, .c3m, .c3r { float: none; width: auto; }
+
+
+/* Content
+======================================================================*/
+/* Header */
+#header { margin-bottom: 20px; }
+
+    /* Logo */
+    #logo { display: block; font-size: 25px; margin: 0 0 0.3em 0; }
+    
+    /* Navigation */
+    #nav { display: block; font-size: 15px; }
+    #nav li { margin-right: 0.5em; }
+
+/* People */
+#people li, #people li.end { float: none; margin: 0 0 10px 0; width: auto; }
+#profile-details #profile-description, #profile-details #profile-photo { float: none; width: auto; }

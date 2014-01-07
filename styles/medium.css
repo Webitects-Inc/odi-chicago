@@ -1,0 +1,28 @@
+/*---------------------------+
+ | Site: Open Data Institute |
+ | Part: Medium stylesheet   |
+ +---------------------------*/
+
+/* Basics
+======================================================================*/
+body { font-size: 20px; }
+h1 { font-size: 30px; }
+h2 { margin-top: 30px; }
+
+
+/* Layout
+======================================================================*/
+#page { max-width: 100%; }
+
+/* Columns */
+.c3l, .c3m, .c3r { float: none; width: auto; }
+
+
+/* Content
+======================================================================*/
+/* Header */
+    /* Logo */
+    #logo { display: block; font-size: 25px; margin: 0 0 0.3em 0; }
+    
+    /* Navigation */
+    #nav { display: block; }
